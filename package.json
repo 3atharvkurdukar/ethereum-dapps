@@ -1,0 +1,27 @@
+{
+  "name": "simple-smart-contract",
+  "version": "0.1.0",
+  "description": "This project demonstrates creation of a simple smart contract using Solidity on Ethereum blockchain. It uses `truffle` framework as development and testing environment for the blockchain.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "dev": "truffle develop",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3atharvkurdukar/ethereum-dapps.git"
+  },
+  "author": "Atharv Kurdukar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3atharvkurdukar/ethereum-dapps/issues"
+  },
+  "homepage": "https://github.com/3atharvkurdukar/ethereum-dapps#readme",
+  "dependencies": {
+    "serve": "^12.0.0"
+  }
+}
